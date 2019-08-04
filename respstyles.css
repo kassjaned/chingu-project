@@ -1,0 +1,36 @@
+
+/* NAV BAR */ 
+
+@media screen and (max-width:759px) {
+    .topnav {
+        display:none;
+    }
+}
+
+@media screen and (min-width:760px) {
+    .topnavm {
+        display:none;
+    }
+    .topnav {
+        position:fixed;
+        top:0;
+        width:100%;
+        background-color:rgb(44, 45, 46);
+        text-align:center;
+    }
+    .topnav li {
+        list-style:none;
+        display:inline-block;
+    }
+    .topnav a {
+        color:#fff;
+        padding:5px 10px 5px 10px;;
+        margin:0 10px 0 10px;
+        text-decoration:none;
+        font-size:1.2em;
+    }
+
+    .topnav a:hover {
+        background-color:rgb(56, 57, 58);
+    }
+}

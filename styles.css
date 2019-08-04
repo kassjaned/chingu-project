@@ -1,0 +1,90 @@
+body {
+    background-color:#fff;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Open sans', sans-serif;
+    font-size:18px;
+}
+
+h5 {  /* PRIMARY CARD HEADING */
+    font-family:'Open sans', sans-serif;
+    font-size:20px;
+}
+
+/* NAV BAR */ 
+
+.topnavm {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    position:fixed;
+    top:0;
+    width:100%;
+  }
+  
+  .topnavm #myLinks {
+    display: none;
+  }
+  
+  .topnavm a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnavm a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+
+/* HEADER */
+
+.header {
+    background:url('images/header.jpg');
+    background-size:cover;
+    background-position: center center;
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+} 
+.headercontent {
+    color:#fff;
+}
+
+/* MAIN */ 
+
+.main {
+    display:flex;
+}
+
+.features {
+    display:flex;
+    flex-flow:row wrap;
+}
+
+/* CARD STYLE */
+
+.card {
+    transition:0.3s;
+    width:40%;
+    background-color:rgb(243, 243, 243);
+}
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card img {
+    width:100%;
+}
+.cardcontainer {
+    padding:5px 5px;
+    background-color:rgb(243, 243, 243);
+}
