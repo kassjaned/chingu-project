@@ -34,3 +34,55 @@
         background-color:rgb(56, 57, 58);
     }
 }
+
+
+/* CARDS */
+
+@media screen and (min-width:600px) {
+    .card {
+        width:30%;
+    }
+}
+
+@media screen and (max-width:599px) {
+    .card {
+        width:100%
+    }
+}
+
+@media screen and (max-width:599px) {
+    .card2 {
+        display:none;
+    }
+}
+@media screen and (max-width:599px) {
+    .card3 {
+        display:none;
+    }
+}
+
+
+@media screen and (min-width:600px) {
+    .card2 {
+        width:46%;
+        background-color:rgb(243, 243, 243);
+        margin:10px;
+}
+    .card2 img {
+        width:100%;
+    }
+    .card3 {
+        width:46%;
+        background-color:rgb(243, 243, 243);
+        margin:10px;
+    }
+    .card3 img {
+        width:100%;
+    }
+}
+
+@media screen and (min-width:993px) {
+    .card3 {
+        width:22%;
+    }
+}

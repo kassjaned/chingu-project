@@ -50,6 +50,8 @@ h5 {  /* PRIMARY CARD HEADING */
     background:url('images/header.jpg');
     background-size:cover;
     background-position: center center;
+    background-attachment: fixed;
+    margin-bottom:1.2em;
     height:90vh;
     display:flex;
     flex-direction:column;
@@ -62,21 +64,58 @@ h5 {  /* PRIMARY CARD HEADING */
 
 /* MAIN */ 
 
-.main {
-    display:flex;
-}
 
 .features {
     display:flex;
     flex-flow:row wrap;
 }
 
-/* CARD STYLE */
+.blogposts {
+    display:flex;
+    flex-flow:row wrap;
+}
+
+.services {
+    background:url('images/casey-horner-T2l1NxKOsjY-unsplash.jpg');
+    background-size:cover;
+    background-position:center center;
+    background-attachment:fixed;
+    margin:1.2em 0;
+    padding:10px 50px;
+    height:30vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+}
+
+.servicecontent {
+    color:#fff;
+    font-family:'Open sans', sans-serif;
+}
+
+.servicecontent p {
+    font-size:19px;
+    font-family:'Open sans', sans-serif;
+}
+
+.testimonials {
+    display:flex;
+    flex-flow:row wrap;
+}
+
+p {
+    font-size:15px;
+    font-family:'Open sans', sans-serif;
+}
+
+/* CARD  */
 
 .card {
     transition:0.3s;
-    width:40%;
+    width:90%;
     background-color:rgb(243, 243, 243);
+    margin:10px;
 }
 .card:hover {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -85,6 +124,74 @@ h5 {  /* PRIMARY CARD HEADING */
     width:100%;
 }
 .cardcontainer {
-    padding:5px 5px;
+    padding:8px 15px;
     background-color:rgb(243, 243, 243);
+}
+
+.greenbtn, .greenbtn a {
+    padding:10px 15px;
+    background-color:rgb(33, 151, 33);
+    border:none;
+    border-radius:10px;
+    color:#fff;
+    font-size:18px;
+    margin:10px;
+    transition:0.3s;
+    z-index:1000;
+    bottom:0;
+}
+
+#greenbtn a:hover {
+    color:rgb(87, 185, 87);
+    cursor:pointer;
+}
+
+#bluebtn, #bluebtn a {
+    padding:10px 15px;
+    background-color:rgb(73, 93, 206);
+    border:none;
+    border-radius:10px;
+    color:#fff;
+    font-size:18px;
+    margin:10px;
+    transition:0.3s;
+    z-index:1000;
+    bottom:0;
+}
+
+#bluebtn a:hover {
+    color:rgb(103, 120, 221);
+    cursor:pointer;
+}
+
+#redbtn, #redbtn a {
+    padding:10px 15px;
+    background-color:rgb(165, 33, 33);
+    border:none;
+    border-radius:10px;
+    color:#fff;
+    font-size:18px;
+    margin:10px;
+    transition:0.3s;
+    z-index:1000;
+}
+
+#redbtn a:hover {
+    color:rgb(189, 57, 57);
+    cursor:pointer;
+}
+
+/* HEADINGS */
+
+h3 {
+    font-size:21px;
+    font-family:'Open sans', sans-serif;
+    font-weight:700;
+    color:rgb(38, 38, 39);
+}
+h4 {
+    color:#fff;
+    font-weight:400;
+    font-size:27px;
+    line-height:1px;
 }
