@@ -7,10 +7,6 @@ body {
     font-size:18px;
 }
 
-h5 {  /* PRIMARY CARD HEADING */
-    font-family:'Open sans', sans-serif;
-    font-size:20px;
-}
 
 /* NAV BAR */ 
 
@@ -60,14 +56,20 @@ h5 {  /* PRIMARY CARD HEADING */
 } 
 .headercontent {
     color:#fff;
+    text-align:center;
 }
 
 /* MAIN */ 
 
+.main {
+    display:flex;
+    flex-direction: column;
+}
 
 .features {
     display:flex;
     flex-flow:row wrap;
+    justify-content:center;
 }
 
 .blogposts {
@@ -113,7 +115,7 @@ p {
 
 .card {
     transition:0.3s;
-    width:90%;
+    width:95%;
     background-color:rgb(243, 243, 243);
     margin:10px;
 }
@@ -183,6 +185,19 @@ p {
 
 /* HEADINGS */
 
+h1 {
+    font-family:'Blinker', sans-serif;
+    font-size:70px;
+    font-weight:400;
+    line-height:15px;
+}
+h2 {
+    font-family:'Blinker', sans-serif;
+    font-size:30px;
+    font-weight:200;
+    letter-spacing:3px;
+    line-height:1px;
+}
 h3 {
     font-size:21px;
     font-family:'Open sans', sans-serif;

@@ -41,6 +41,7 @@
 @media screen and (min-width:600px) {
     .card {
         width:30%;
+        justify-content:center;
     }
 }
 
@@ -71,10 +72,21 @@
     .card2 img {
         width:100%;
     }
+    .blogposts {
+        display:flex;
+        flex-flow:row wrap;
+        justify-content: center;
+    }
     .card3 {
         width:46%;
         background-color:rgb(243, 243, 243);
         margin:10px;
+        justify-content: center;
+    }
+    .testimonials {
+        display:flex;
+        flex-flow:row wrap;
+        justify-content: center;
     }
     .card3 img {
         width:100%;
@@ -83,6 +95,6 @@
 
 @media screen and (min-width:993px) {
     .card3 {
-        width:22%;
+        width:21%;
     }
 }
