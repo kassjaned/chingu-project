@@ -143,12 +143,12 @@ p {
     bottom:0;
 }
 
-#greenbtn a:hover {
-    color:rgb(87, 185, 87);
+.greenbtn a:hover {
+    color:rgb(141, 221, 141);
     cursor:pointer;
 }
 
-#bluebtn, #bluebtn a {
+.bluebtn, .bluebtn a {
     padding:10px 15px;
     background-color:rgb(73, 93, 206);
     border:none;
@@ -161,12 +161,12 @@ p {
     bottom:0;
 }
 
-#bluebtn a:hover {
+.bluebtn a:hover {
     color:rgb(103, 120, 221);
     cursor:pointer;
 }
 
-#redbtn, #redbtn a {
+.redbtn, .redbtn a {
     padding:10px 15px;
     background-color:rgb(165, 33, 33);
     border:none;
@@ -178,7 +178,7 @@ p {
     z-index:1000;
 }
 
-#redbtn a:hover {
+.redbtn a:hover {
     color:rgb(189, 57, 57);
     cursor:pointer;
 }
