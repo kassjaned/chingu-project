@@ -52,7 +52,7 @@
 
 @media screen and (max-width:599px) {
     .card {
-        width:95%
+        width:84%
     }
 }
 
@@ -86,7 +86,7 @@
     .card3 {
         width:43%;
         background-color:rgb(243, 243, 243);
-        margin:10px;
+        margin:20px auto;
         justify-content: center;
     }
     .testimonials {
@@ -102,6 +102,7 @@
 @media screen and (min-width:993px) {
     .card3 {
         width:21%;
+        margin:20px auto;
     }
 }
 
@@ -133,5 +134,32 @@
     .fullcard {
         margin:10px 40px;
         width:90%;
+    }
+}
+
+
+
+/* RESPONSIVE CONTACT FORM */
+
+
+@media screen and (min-width:767px) {
+    form {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content:space-between;
+    }
+    .row {
+        display:flex;
+        flex-flow:row wrap;
+    }
+    .col1 {
+        display:flex;
+        flex-flow:column;
+        width:45%;
+    }
+    .col2 {
+        display:flex;
+        flex-flow:column;
+        width:50%;
     }
 }

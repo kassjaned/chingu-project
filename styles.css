@@ -114,6 +114,97 @@ p {
     font-family:'Open sans', sans-serif;
 }
 
+
+/* CONTACT FORM */
+
+
+
+.contact {
+    background-image:url('images/card7.jpg');             /* Good browsers */
+    background-size:cover;
+    background-position:center center;
+    background-attachment: fixed;
+    height:auto;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+}
+
+.contactcontainer {
+    width:70%;
+    margin: 30px auto;
+    text-align:center;
+}
+
+.contactform {
+    width:100%;
+}
+
+.contact h3 {
+    font-size:45px;
+    color:#fff;
+    font-family:'Open sans', sans-serif;
+    font-weight:300;
+    margin:0;
+    text-shadow: 2px 2px #333;
+}
+.contact p {
+    background: rgba(242, 242, 242, 0.4);
+    color:#000;
+    border-radius:10px;
+    padding:20px 10px;
+    border:none;
+}
+
+form {
+    margin-top:25px;
+    transition:all 4s ease-in-out;
+    width:100%;
+    color:#000;
+}
+
+form .submit {
+    background:rgb(48, 48, 48);
+    border:1px solid #9c9898;
+    color:#fff;
+    height:50px;
+    margin-top:10px;
+    font-size:20px;
+    width:30%;
+}
+
+input {
+    height:27px;
+    width:100%;
+    color:#000;
+}
+
+.formcontrol {
+    width:100%;
+    background:rgba(242, 242, 242, 0.4);
+    border:none;
+    border-radius:5px;
+    padding:5px;
+    margin-bottom:10px;
+    color:#000;
+    font-size:14px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:#000;
+  }
+  
+  ::placeholder {
+    color:#000;
+  }
+
+
 /* CARD  */
 
 .card {
@@ -137,10 +228,26 @@ p {
 }
 
 
+.bigcard {
+    width:84%;
+    background-color:rgb(243, 243, 243);
+    margin:20px auto;
+}
+.bigcard img {
+    max-width:100%;
+}
+
 .cardcontainer {
     padding:0 20px 20px;
     background-color:rgb(243, 243, 243);
 }
+
+
+
+
+/* BUTTONS */ 
+
+
 
 .greenbtn, .greenbtn a {
     padding:10px 15px;
@@ -197,6 +304,25 @@ p {
     cursor:pointer;
 }
 
+.readmorebtn {
+    padding:10px 15px;
+    background-color:rgb(255, 255, 255);
+    border:1px solid #ddd8d8;
+    border-radius:10px;
+    text-decoration:none;
+    color:rgb(51, 51, 51);
+    font-size:18px;
+    display:inline-block;
+    margin:10px;
+    transition:0.3s;
+    z-index:1000;
+}
+
+.readmorebtn:hover {
+    background-color:rgb(235, 235, 235);
+    border:1px solid #cccccc;
+}
+
 /* HEADINGS */
 
 h1 {
@@ -204,6 +330,7 @@ h1 {
     font-size:70px;
     font-weight:400;
     line-height:15px;
+    text-shadow: 2px 2px #333;
 }
 h2 {
     font-family:'Blinker', sans-serif;
@@ -211,6 +338,7 @@ h2 {
     font-weight:200;
     letter-spacing:3px;
     line-height:1px;
+    text-shadow: 2px 2px #333;
 }
 h3 {
     font-size:21px;
@@ -228,19 +356,3 @@ h4 {
 
 
 
-
-
-
-
-
-
-
-
-.bigcard {
-    width:95%;
-    background-color:rgb(243, 243, 243);
-    margin:10px;
-}
-.bigcard img {
-    max-width:100%;
-}

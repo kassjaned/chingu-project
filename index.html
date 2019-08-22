@@ -59,7 +59,7 @@
          <section class="features">
 
                 <div class="card">
-                    <img src="images/card1.jpg">
+                    <img src="images/card1-1.jpg">
                     <div class="cardcontainer">
                         <p>Coded from scratch by Kassie for the Chingu pre-work individual project. I used CSS Flexbox 
                             & responsive design to build and duplicate the CONQUER Bootstrap layout.
@@ -187,13 +187,32 @@
                                 Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper 
                                 auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare 
                                 ac scelerisque quis, maximus eget nisi.</p>
+                            
+                            <p><a class="readmorebtn" href="#">Read more..</a></p>
                             </div>
                     </div>
             </section>
 
             <section class="contact">
-                    <div class="contactform">
-
+                    <div class="contactcontainer">
+                        <h3>Contact Us</h3>
+                        <p>Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id 
+                        felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia. 
+                        Etiam a mi quis arcu varius condimentum.</p>
+                        
+                            <div class="contactform row">
+                                <form id="contact-form" method="post" action="contactform.php">
+                                        <div class="col1">
+                                    <input name="name" type="text" class="formcontrol" placeholder="Name" required>
+                                    <input name="email" type="email" class="formcontrol" placeholder="abc@gmail.com" required>
+                                        </div>
+                                        
+                                        <div class="col2">
+                                    <textarea name="message" class="formcontrol" placeholder="Type your message here.." rows="6" required></textarea>
+                                    <input type="submit" class="formcontrol submit" value="Submit">
+                                        </div>
+                                </form>
+                            </div>
                     </div>
             </section>
 
