@@ -1,0 +1,165 @@
+
+/* NAV BAR */ 
+
+@media screen and (max-width:759px) {
+    .topnav {
+        display:none;
+    }
+}
+
+@media screen and (min-width:760px) {
+    .topnavm {
+        display:none;
+    }
+    .topnav {
+        position:fixed;
+        top:0;
+        width:100%;
+        background-color:rgb(44, 45, 46);
+        text-align:center;
+    }
+    .topnav li {
+        list-style:none;
+        display:inline-block;
+    }
+    .topnav a {
+        color:#fff;
+        padding:5px 10px 5px 10px;;
+        margin:0 10px 0 10px;
+        text-decoration:none;
+        font-size:1.2em;
+    }
+
+    .topnav a:hover {
+        background-color:rgb(56, 57, 58);
+    }
+}
+
+/* SERVICES */
+
+
+
+
+
+
+/* CARDS */
+
+@media screen and (min-width:600px) {
+    .card {
+        width:30%;
+    }
+}
+
+@media screen and (max-width:599px) {
+    .card {
+        width:84%
+    }
+}
+
+@media screen and (max-width:599px) {
+    .card2 {
+        display:none;
+    }
+}
+@media screen and (max-width:599px) {
+    .card3 {
+        display:none;
+    }
+}
+
+
+@media screen and (min-width:600px) {
+    .card2 {
+        width:43%;
+        background-color:rgb(243, 243, 243);
+        margin:15px auto;
+
+}
+    .card2 img {
+        width:100%;
+    }
+    .blogposts {
+        display:flex;
+        flex-flow:row wrap;
+        justify-content: center;
+    }
+    .card3 {
+        width:43%;
+        background-color:rgb(243, 243, 243);
+        margin:20px auto;
+        justify-content: center;
+    }
+    .testimonials {
+        display:flex;
+        flex-flow:row wrap;
+        justify-content: center;
+    }
+    .card3 img {
+        width:100%;
+    }
+}
+
+@media screen and (min-width:993px) {
+    .card3 {
+        width:21%;
+        margin:20px auto;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .fullcard {
+        max-width: 750px;
+        width:85%;
+        padding: 10px 20px;
+        margin:10px 20px;
+        background-color:#f2f2f2;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .fullwidth {
+      display:flex;
+    }
+    .fullcard {
+        max-width:1200px;
+        width:90%;
+        padding:10px 10px;
+        margin:10px 20px;
+        background-color:#f2f2f2;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .fullcard {
+        margin:10px 40px;
+        width:90%;
+    }
+}
+
+
+
+/* RESPONSIVE CONTACT FORM */
+
+
+@media screen and (min-width:767px) {
+    form {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content:space-between;
+    }
+    .row {
+        display:flex;
+        flex-flow:row wrap;
+    }
+    .col1 {
+        display:flex;
+        flex-flow:column;
+        width:45%;
+    }
+    .col2 {
+        display:flex;
+        flex-flow:column;
+        width:50%;
+    }
+}
