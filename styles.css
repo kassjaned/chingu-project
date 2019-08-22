@@ -83,9 +83,10 @@ body {
     background-position:center center;
     background-attachment:fixed;
     margin:1.2em 0;
-    padding:10px 50px;
+    padding:30px 30px;
     height:30vh;
     display:flex;
+    align-items:center;
     flex-direction:column;
     justify-content:center;
     text-align:center;
@@ -94,6 +95,8 @@ body {
 .servicecontent {
     color:#fff;
     font-family:'Open sans', sans-serif;
+    font-size:10px;
+    width:70%;
 }
 
 .servicecontent p {
@@ -115,18 +118,27 @@ p {
 
 .card {
     transition:0.3s;
-    width:95%;
+    width:30%;
     background-color:rgb(243, 243, 243);
-    margin:10px;
+    margin:10px auto;
+    padding-bottom:40px;
 }
 .card:hover {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .card img {
-    width:100%;
+    max-width:100%;
+    height:auto;
+    vertical-align:center;
 }
+
+.card3 {
+    margin:20px auto;
+}
+
+
 .cardcontainer {
-    padding:8px 15px;
+    padding:0 20px 20px;
     background-color:rgb(243, 243, 243);
 }
 
@@ -137,14 +149,14 @@ p {
     border-radius:10px;
     color:#fff;
     font-size:18px;
-    margin:10px;
     transition:0.3s;
     z-index:1000;
-    bottom:0;
+    text-decoration:none;
+
 }
 
-.greenbtn a:hover {
-    color:rgb(141, 221, 141);
+.greenbtn:hover {
+    background-color:rgb(57, 173, 57);
     cursor:pointer;
 }
 
@@ -153,6 +165,7 @@ p {
     background-color:rgb(73, 93, 206);
     border:none;
     border-radius:10px;
+    text-decoration:none;
     color:#fff;
     font-size:18px;
     margin:10px;
@@ -161,8 +174,8 @@ p {
     bottom:0;
 }
 
-.bluebtn a:hover {
-    color:rgb(103, 120, 221);
+.bluebtn:hover {
+    background-color:rgb(84, 129, 211);
     cursor:pointer;
 }
 
@@ -171,6 +184,7 @@ p {
     background-color:rgb(165, 33, 33);
     border:none;
     border-radius:10px;
+    text-decoration:none;
     color:#fff;
     font-size:18px;
     margin:10px;
@@ -178,8 +192,8 @@ p {
     z-index:1000;
 }
 
-.redbtn a:hover {
-    color:rgb(189, 57, 57);
+.redbtn:hover {
+    background-color:rgb(199, 66, 66);
     cursor:pointer;
 }
 
@@ -209,4 +223,24 @@ h4 {
     font-weight:400;
     font-size:27px;
     line-height:1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.bigcard {
+    width:95%;
+    background-color:rgb(243, 243, 243);
+    margin:10px;
+}
+.bigcard img {
+    max-width:100%;
 }

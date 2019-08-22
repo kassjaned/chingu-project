@@ -35,19 +35,24 @@
     }
 }
 
+/* SERVICES */
+
+
+
+
+
 
 /* CARDS */
 
 @media screen and (min-width:600px) {
     .card {
         width:30%;
-        justify-content:center;
     }
 }
 
 @media screen and (max-width:599px) {
     .card {
-        width:100%
+        width:95%
     }
 }
 
@@ -65,9 +70,10 @@
 
 @media screen and (min-width:600px) {
     .card2 {
-        width:46%;
+        width:43%;
         background-color:rgb(243, 243, 243);
-        margin:10px;
+        margin:15px auto;
+
 }
     .card2 img {
         width:100%;
@@ -78,7 +84,7 @@
         justify-content: center;
     }
     .card3 {
-        width:46%;
+        width:43%;
         background-color:rgb(243, 243, 243);
         margin:10px;
         justify-content: center;
@@ -96,5 +102,36 @@
 @media screen and (min-width:993px) {
     .card3 {
         width:21%;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .fullcard {
+        max-width: 750px;
+        width:85%;
+        padding: 10px 20px;
+        margin:10px 20px;
+        background-color:#f2f2f2;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .fullwidth {
+      display:flex;
+    }
+    .fullcard {
+        max-width:1200px;
+        width:90%;
+        padding:10px 10px;
+        margin:10px 20px;
+        background-color:#f2f2f2;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .fullcard {
+        margin:10px 40px;
+        width:90%;
     }
 }
