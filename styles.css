@@ -205,6 +205,46 @@ input {
   }
 
 
+  /* FOOTER */
+
+  .footer {
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-items:center;
+      align-items:center;
+      align-content: center;
+      font-family:'Open sans', sans-serif;
+      font-size:14px;
+      padding-bottom:30px;
+  }
+
+  .footer h6 {
+      font-style: italic;
+      font-size:32px;
+      margin:20px 0;
+      font-weight:300;
+      color:#666;
+  }
+  .footer p {
+      font-size:16px;
+      font-style:italic;
+      text-align:center;
+      color: #9c9c9c;
+      margin:0;
+  }
+
+  hr {
+      width:100%;
+      margin:20px 0;
+      border:0;
+      border-top:1px solid #eee;
+  }
+
+  #copyright {
+      color:rgb(112, 112, 112);
+  }
+
 /* CARD  */
 
 .card {
