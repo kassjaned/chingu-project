@@ -5,16 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="respstyles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Blinker&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/7b800f29b2.js"></script>
+ 
+
+    <title>Conquer | Chingu Prework</title>
 </head>
 <body>
 
-    <nav class="topnav">
+    <!-- NAV MOBILE--> 
+    <nav class="topnavm">
+        <a href="#home">Home</a>
+        <div id="myLinks">
+          <a href="#features">About Us</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+          <a href="#footer">External</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fas fa-bars"></i>
+        </a>
+    </nav>
+
+  <!-- NAV DESKTOP--> 
+   <nav class="topnav">
+        <ul>
+            <li><a class="home" href="#home">Home</a></li>
+            <li><a class="features" href="#features">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#footer">External</a></li>
+        </ul>
+    </nav> <!-- / NAV -->
+
+    <!-- HEADER -->
+<div id="home" class="home"></div>
+
+
+    <div class="header" alt="image">
+        <div class="headercontent">
+            <h1>CONQUER</h1>
+            <h2>Bootstrap Template</h2>
+        </div>
+    </div>
+
+
+    <!-- /// START MAIN CONTENT SECTION /// -->
+    <div id="features" class="main">
+
 
     </nav>
 
-    <header class="header">
 
-    </header>
+                        <a href="#"><button class="readmorebtn">Read More..</button></a>
+                    </div></div>
+                </section>
+
+            <section id="services" class="services">
+                <div class="servicecontent">
+                    <h4>Our Services</h4>
+                    <p>
+                        Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id 
+                        felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia. 
+                        Etiam a mi quis arcu varius condimentum.
+                    </p>
+                </div>
+            </section>
+
 
     <section class="main">
 
@@ -22,16 +86,35 @@
 
             </div>
 
-            <div class="section2">
+            <section id="contact" class="contact">
+                    <div class="contactcontainer">
+                        <h3>Contact Us</h3>
+                        <p>Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id 
+                        felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia. 
+                        Etiam a mi quis arcu varius condimentum.</p>
+                        
+                            <div class="contactform row">
+                                <form id="contact-form" method="post" action="contactform.php">
+                                        <div class="col1">
+                                    <input name="name" type="text" class="formcontrol" placeholder="Name" required>
+                                    <input name="email" type="email" class="formcontrol" placeholder="abc@gmail.com" required>
+                                        </div>
 
             </div>
 
     </section>
 
-    <footer class="footer">
-
+    <footer id="footer" class="footer">
+            <h6>Use it free!</h6>
+            <p>“Conquer is free Bootstrap template from templatemo website. <br>
+                    No backlink is required to use this layout.”</p>
+            <hr>
+            <div id="copyright">Copyright © 2084 Your Company Name | Design: templatemo</div>
     </footer>
 
-    
+   
+
+
+
 </body>
 </html>
